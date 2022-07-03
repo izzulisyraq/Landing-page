@@ -1,15 +1,41 @@
-.body {
+body {
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
     background-color: #1f2937;
 }
 
-.two {
-    background-color: white;
+.header {
+    display: flex;
+    background-color: #1f2937;
+    align-self: flex-start;
 }
 
-.three {
+.main {
+    display: flex;
+    background-color: #1f2937;
+    flex-direction: row;
+}
+
+.second {
+    background-color: white;
+    display: flex;
+}
+
+.quote {
+    display: flex;
     background-color: #e5e7eb;
 }
  
-.four {
+.last {
+    display: flex;
     background-color: white ;
 } 
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
