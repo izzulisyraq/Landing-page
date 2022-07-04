@@ -1,6 +1,7 @@
 body {
     display: flex;
     margin: 0px;
+    padding: 0px;
     flex-direction: column;
     background-color: #1f2937;
 }
@@ -9,12 +10,13 @@ body {
     display: flex;
     background-color: #1f2937;
     flex: 0 1 auto;
-    height: 72px;
+    height: 35px;
 }
 
 .middle {
     display: flex;
     flex: 1 0 auto;
+    flex-direction: column;
 }
 
 .main {
@@ -22,6 +24,45 @@ body {
     background-color: #1f2937;
     flex-direction: row;
     flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    width: 1000px;
+    height: 300px;
+    margin: 24px 0px;
+}
+
+.description-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}  
+
+.big {
+    color: white;
+    font-weight: bolder;
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+
+.description-text .small {
+    font-size: 18px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.gymbro {
+    display: flex;
+    flex: 1;
+    width: 300px;
+    height: auto;
 }
 
 .second {
@@ -48,6 +89,6 @@ body {
     align-items: center;
     flex: 0 1 auto;
     color: white;
-    height: 72px;
-    padding: 20px;
+    height: 35px;
+    padding: 10px;
 }
