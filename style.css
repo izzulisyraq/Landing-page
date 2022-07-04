@@ -8,34 +8,46 @@ body {
 .header {
     display: flex;
     background-color: #1f2937;
-    align-self: flex-start;
+    flex: 0 1 auto;
+    height: 72px;
+}
+
+.middle {
+    display: flex;
+    flex: 1 0 auto;
 }
 
 .main {
     display: flex;
     background-color: #1f2937;
     flex-direction: row;
+    flex-grow: 2;
 }
 
 .second {
     background-color: white;
     display: flex;
+    flex-grow: 2;
 }
 
 .quote {
     display: flex;
     background-color: #e5e7eb;
+    flex-grow: 1;
 }
  
 .last {
     display: flex;
     background-color: white ;
+    flex-grow: 1;
 } 
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 0 1 auto;
     color: white;
+    height: 72px;
     padding: 20px;
 }
