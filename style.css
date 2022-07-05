@@ -1,6 +1,7 @@
 body {
     display: flex;
     margin: 30px 50px;
+    margin-bottom: 0px;
     padding: 0px;
     flex-direction: column;
     background-color: black;
