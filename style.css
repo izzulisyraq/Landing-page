@@ -113,7 +113,12 @@ body {
     justify-content: space-between;
 }
 
-img {
+.area {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.workout {
     width: 200px;
     height: 180px;
     border: #3882f6 solid;
