@@ -143,9 +143,15 @@ body {
     flex-grow: 1;
     justify-content: center;
     align-items: center;
+    padding: 30px;
 }
 
-
+.in {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 300px;
+}
  
 .last {
     display: flex;
