@@ -15,7 +15,7 @@ body {
     display: flex;
     background-color: #1f2937;
     flex: 0 1 auto;
-    height: 35px;
+    height: 100px;
     flex-direction: row;
 }
 
@@ -30,6 +30,11 @@ body {
 
 .link {
     flex: 1 0 auto;
+    align-items: center;
+}
+
+.link a {
+    color: #fff;
 }
 
 .middle {
