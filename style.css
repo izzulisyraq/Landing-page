@@ -144,13 +144,20 @@ body {
     justify-content: center;
     align-items: center;
     padding: 30px;
+    height: 300px;
 }
 
 .in {
     display: flex;
     flex-direction: column;
-    width: 1000px;
+    width: 800px;
     height: 300px;
+}
+
+.italic {
+    font-weight: lighter;
+    font-size: 36px;
+    text-align: left;
 }
  
 .last {
