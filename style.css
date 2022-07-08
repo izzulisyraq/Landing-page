@@ -141,7 +141,11 @@ body {
     display: flex;
     background-color: #e5e7eb;
     flex-grow: 1;
+    justify-content: center;
+    align-items: center;
 }
+
+
  
 .last {
     display: flex;
